@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Set Budget"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/green_dark"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="8dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="What is your primary goal for setting a budget?"
+        android:textColor="#009688" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGoals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/manage_expense_rButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage monthly expenses"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/goal_save_rButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save for a specific goal"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/track_spending_rButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track spending habits"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etSpecificGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your specific goal"
+        android:inputType="text"
+        android:paddingBottom="16dp"
+        android:visibility="gone"
+        android:background="@drawable/edit_text_background" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Select your Budget Amount:"
+        android:textColor="#009688"
+        android:textColorLink="#009688" />
+
+    <TextView
+        android:id="@+id/tv_budget_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#009688"
+        android:paddingBottom="8dp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:value="0"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:thumbColor="#009688"
+        app:tickColor="#009688"
+        app:tickColorInactive="#6AC7BE"
+        app:trackColor="#009688"
+        app:trackColorActive="#009688"
+        app:trackColorInactive="#6AC7BE"
+        android:paddingBottom="16dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:shadowColor="#009688"
+        android:text="Would you like to receive alerts when you are close to exceeding your budget?"
+        android:textColor="#009688"
+        android:textColorHighlight="#009688"
+        android:textColorHint="#009688"
+        android:textColorLink="#009688"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_set_budget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:elevation="2dp"
+        android:text="Set Budget"
+        android:textColor="@color/white" />
+
+</LinearLayout>

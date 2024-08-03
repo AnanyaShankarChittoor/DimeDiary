@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green_light</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorAccent">@color/green_light</item>
+    </style>
+        <!-- Custom Text Appearance for Body -->
+        <style name="CustomTextAppearanceBody" parent="TextAppearance.AppCompat.Body1">
+            <item name="android:textColor">#000000</item>
+            <item name="android:textSize">16sp</item>
+        </style>
+
+        <!-- Custom Text Appearance for Headline -->
+        <style name="CustomTextAppearanceHeadline" parent="TextAppearance.AppCompat.Headline">
+            <item name="android:textColor">#045049</item>
+            <item name="android:textSize">20sp</item>
+        </style>
+    <!-- Custom Text Appearance for Bold Labels -->
+    <style name="CustomTextAppearanceBoldLabel" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+
+</resources>

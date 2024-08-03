@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Dime Diary</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_base_currency">Select base currency</string>
+    <string name="currency_info">Your base currency should ideally be the one you use most often. Your balance &amp; statistics will be shown in this currency.</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="setup_cash_balance_title">Set up your cash balance</string>
+    <string name="setup_cash_balance_subtitle">How much cash do you have in your physical wallet?</string>
+    <string-array name="currency_names">
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>British Pound</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Japanese Yen</item>
+        <item>Swiss Franc</item>
+        <item>Chinese Yuan</item>
+        <item>Indian Rupee</item>
+        <item>Brazilian Real</item>
+        <item>South African Rand</item>
+        <item>Russian Ruble</item>
+        <item>Mexican Peso</item>
+        <item>Singapore Dollar</item>
+        <item>Hong Kong Dollar</item>
+        <item>Norwegian Krone</item>
+        <item>Swedish Krona</item>
+        <item>New Zealand Dollar</item>
+        <item>South Korean Won</item>
+        <item>Turkish Lira</item>
+    </string-array>
+
+    <string-array name="currency_abbr">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>JPY</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>ZAR</item>
+        <item>RUB</item>
+        <item>MXN</item>
+        <item>SGD</item>
+        <item>HKD</item>
+        <item>NOK</item>
+        <item>SEK</item>
+        <item>NZD</item>
+        <item>KRW</item>
+        <item>TRY</item>
+    </string-array>
+
+    <string name="default_web_client_id">626822532473-qh38uj5f3oojph6ek0nt5e9v7bllsv09.apps.googleusercontent.com</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">NEXT</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">dfhvdfv</string>
+
+    <string name="usd">USD</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="add_expense">Add Your Expense</string>
+    <string name="description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="add_description">Add Description</string>
+    <string name="title_activity_navigation_drawerctivity">NavigationDrawerctivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="View_Expenses">View Expenses</string>
+    <string name="Set_Budget">Set Budget</string>
+    <string name="set_budget">Set Budget\n</string>
+    <string name="view_expenses">View Expenses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
